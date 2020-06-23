@@ -2,24 +2,27 @@
 
 To build:
 
-> make
-> ./nic -c
+	make
+	
+	./nic -c
 
 If you modify code in words you must do:
 
-> make claan
-> make
-> ./nic -c
+	make clean
+
+	make
+
+	./nic -c
 
 
 To run interpreter without recompiling words do just
 
->./nic
+	./nic
 
 
 To see all list of words do:
 
-> list
+	list
 
 TO see what the word do:
-> :<word> help
+	nic> :<word> help
