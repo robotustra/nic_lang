@@ -1,0 +1,3 @@
+# define some arrays.
+10 DIM da DUBL ARRA
+100 DIM 50 DIM ar INT ARRA

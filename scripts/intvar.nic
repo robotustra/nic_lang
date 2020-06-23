@@ -1,0 +1,7 @@
+# int variable test
+1 a EQ 
+PR
+234 b EQ
+10 c INT VAR EQ
+2 PRIN
+EXIT

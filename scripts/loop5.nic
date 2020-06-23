@@ -1,0 +1,13 @@
+# text example
+0 # put integer value into stack 
+dup PR
+t TEXT VAR # create variable text
+"inc dup pr" s0 STRI 	#define the string s0
+ADD # add s0 to t.
+"5 mul dup pr" s1 STRI
+ADD # add another string s1 to text
+5 LOOP
+# bug to fix - EXIT does not work after loop for some reason
+SHOW
+t 10 LOOP
+EXIT

@@ -1,0 +1,9 @@
+# this is a loop hack, I use the bug in the loop word.
+CS
+0 # put some int 
+t TEXT VAR
+"2 ADD DUP PR" s0 STRI
+ADD # t+s0 -> t'
+5 SHOW LOOP CS 20 #here is the hack, everything what is after LOOP word in the line is executed before loop expression and 
+# could be used to inicialize the loop.
+EXIT

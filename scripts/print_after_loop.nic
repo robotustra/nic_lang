@@ -1,0 +1,3 @@
+"inc dup pr"
+5 loop 10
+"print after loop" pr

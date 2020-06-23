@@ -1,0 +1,15 @@
+# Lesson one, basic operations
+"This is an lesson 1 in 'nic' scripting language" pr last DEL
+"Press Enter to continue" pr last DEL
+CIN DEL
+"Hello world program will look like: " pr last DEL 
+" " pr last DEL 
+"\"Hello world\" PR EXIT" s STRI pr last DEL 
+" " pr last DEL 
+"Enter the line above" pr last DEL  
+"./nic" SH 
+"^ You can see the output of your first program." pr last DEL 
+"The program consists of the sequence of words. Each word is interpreted." pr last DEL 
+"When you write a \"string\" 'nic' places it into stack." un stri pr last DEL 
+" " pr last DEL 
+"Enter to continue" pr last DEL 

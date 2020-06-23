@@ -1,0 +1,19 @@
+# half ring
+0 0 0 d0 DOT # origin of the path
+#
+0 1 0 5 rv0 RVEC # directing vector of the arc with redius 5mm
+0 0 -1 180 rn0 RVEC # normal to arc plain for 180 turn cw
+arc0 ARC # create arc
+#
+-3 0 0 v0 VEC # X displacement by -3mm
+#
+0 1 0 2 rv1 RVEC # direction vector for small arc of 2mm radius
+0 0 1 180 rn1 RVEC # normal vector of 180 degree CCW turn
+arc1 ARC # create the second arc
+#
+path0 PATH # create path
+d0 ADD # 
+arc0 ADD # 
+v0 ADD # 
+arc1 ADD # 
+CLOS # close path

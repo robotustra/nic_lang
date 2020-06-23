@@ -1,0 +1,6 @@
+# put 2 numbers in the stack before call it.
+# the result is stored in the stack and displayed on stdout
+push
+dup mul
+pop
+dup mul add sqrt view

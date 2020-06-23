@@ -1,0 +1,16 @@
+# double var example
+:DUBL HELP
+:VAR HELP
+a DUBL VAR 
+b DUBL VAR
+cs 
+2.33 a EQ # assign variable a
+b 5.99 QE # swap stack cells and assign variable 
+2 PRIN
+999.0 b EQ #reassign the value
+PR
+3.44434 a EQ
+PR
+b VALU a EQ
+PR
+EXIT

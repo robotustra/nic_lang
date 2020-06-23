@@ -1,0 +1,12 @@
+# create some path in the
+# Some dots example
+0 0 0 org0 DOT
+1 0 0 dx0 DOT
+0 1 0 dy0 DOT
+0 0 1 dz0 DOT
+cs # clear stack
+org0 dx0 lx0 LINE
+org0 dy0 ly0 LINE
+# make a path
+cs
+org0 lx0 ly0 path0 PATH view
