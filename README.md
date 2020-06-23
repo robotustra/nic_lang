@@ -15,3 +15,11 @@ If you modify code in words you must do:
 To run interpreter without recompiling words do just
 
 >./nic
+
+
+To see all list of words do:
+
+> list
+
+TO see what the word do:
+> :<word> help
