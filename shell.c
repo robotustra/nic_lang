@@ -9,6 +9,8 @@
 #include "common.h"
 #include "sh_inner.h"/*В этом файле используются все переменные для функций внутри ф. шелла*/
 
+nicenv_t env;
+
 #define cursorforward(x) printf("\033[%dC", (x))
 #define cursorbackward(x) printf("\033[%dD", (x))
 char * prompt[5] = {
